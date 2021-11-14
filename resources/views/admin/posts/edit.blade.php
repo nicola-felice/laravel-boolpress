@@ -20,7 +20,7 @@
     </div>
 
     <div class="form-group">
-      <label for="content">Descrizione</label>
+      <label for="content">Articolo:</label>
       <textarea type="text" class="form-control" id="content" rows="13" name="content">{{$post['content']}}</textarea>
     </div>
 
