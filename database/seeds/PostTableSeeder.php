@@ -18,7 +18,7 @@ class PostTableSeeder extends Seeder
             $post = new Post();
             $post->title = $faker->sentence(7);
             $post->author = $faker->words(2, true);
-            $post->content = $faker->paragraphs(5, true);
+            $post->content = $faker->paragraphs(25, true);
             $post->save();
         }
     }
