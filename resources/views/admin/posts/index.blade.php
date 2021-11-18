@@ -17,7 +17,7 @@
       @foreach ($posts as $post)
       <tr>
       <th scope="row">{{$post['id']}}</th>
-      <td>{{$post['title']}}</td>
+      <td class="h4">{{$post['title']}}</td>
       <td>{{$post['author']}}</td>
       <td><div id="text_content">{{$post['content']}}</div></td>
       <td>

@@ -22,6 +22,16 @@
       <textarea type="text" class="form-control" id="content" rows="13" name="content" placeholder="some text"></textarea>
     </div>
 
+    <div class="form-group">
+      <label for="category">Articolo:</label>
+      <select class="form-control" name="category_id" id="category">
+        <option value="">--seleziona categoria--</option>
+        @foreach ($categories as $category)
+          <option value="{{$category->id}}">{{$category->name}}</option>            
+        @endforeach
+      </select>
+    </div>
+
     <button type="submit" class="btn btn-primary">Crea</button>
   </form>
 </div>
