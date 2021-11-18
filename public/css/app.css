@@ -10962,13 +10962,6 @@ a.text-dark:focus {
   }
 }
 
-#text_content {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 #show_post .author {
   margin: 2rem 0;
   font-size: 1.15rem;
