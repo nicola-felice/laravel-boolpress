@@ -8,5 +8,8 @@ class Category extends Model
 {
     protected $guarded = [];
 
-    
+    public function posts()
+    {
+        $this->hasMany('App\Post');
+    }
 }
