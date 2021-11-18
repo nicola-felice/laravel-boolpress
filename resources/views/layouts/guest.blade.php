@@ -35,7 +35,7 @@
                         @auth
                           <li class="nav-item ml-auto"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ url('/admin') }}">Admin</a></li>
                         @else
-                          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ route('login') }}">Login</a></li>
+                          <li class="nav-item ml-auto"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ route('login') }}">Login</a></li>
 
                           @if (Route::has('register'))
                             <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ route('register') }}">Register</a></li>
@@ -47,7 +47,7 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('img/hero.jpg')">
+        <header class="masthead" style="background-image: url({{ URL::asset('img/hero.jpg') }})">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
