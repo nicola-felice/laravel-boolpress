@@ -23,7 +23,7 @@
     </div>
 
     <div class="form-group">
-      <label for="category">Articolo:</label>
+      <label for="category">Categoria:</label>
       <select class="form-control" name="category_id" id="category">
         <option value="">--seleziona categoria--</option>
         @foreach ($categories as $category)
