@@ -10962,17 +10962,3 @@ a.text-dark:focus {
   }
 }
 
-#show_post .author {
-  margin: 2rem 0;
-  font-size: 1.15rem;
-  text-transform: capitalize;
-}
-
-#show_post h1 {
-  margin-top: 3rem;
-}
-
-#show_post p {
-  font-size: 1rem;
-}
-

@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Rotte pubbliche
 Route::get('/', 'PageController@index');
 Route::get('/show/{id}', 'PostController@show')->name('posts.show');
+Route::get('/api-vue', 'PageController@vueApi');
 
 // Rotte Autenticazione
 Auth::routes();

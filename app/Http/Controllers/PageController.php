@@ -13,4 +13,9 @@ class PageController extends Controller
 
         return view('guest.index', compact('posts'));
     }
+
+    public function vueApi()
+    {
+        return view('guest.api-vue');
+    }
 }
